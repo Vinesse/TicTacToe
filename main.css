@@ -1,20 +1,42 @@
 body {
-    background-color: turquoise;
+    background: linear-gradient(to right, #EB3349, #F45C43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+.header {
+    font-size: 3em;
 }
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 606px;
-    height: 606px;
-    padding: 0;
-    margin: 0;
+    width: 460px;
+    height: 400px;
+    margin-top: 10px;
 }
 .box {
-    border: solid pink 1px;
-    height: 200px;
-    width: 200px;
+    border: solid #CBCBCB 1px;
+    height: 150px;
+    width: 150px;
 }
 .symbols {
-    font-family: sans-serif;
     font-size: 6em;
+    text-align: center;
+    line-height: 150px;
+}
+#turn {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+button {
+    background-color: #295AB4;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #20478D;
+    font-size: 1em;
+    border-radius: 4px;
 }

@@ -26,10 +26,10 @@ function switchTurn() {
 function takeTurn(el) {
     if (el.dataset.clicked === "false") {
         if (turn === "playerOne") {
-            document.getElementById("turn").innerHTML = "One";
+            document.getElementById("turn").innerHTML = "Player Two's turn.";
             el.innerHTML = "X";
         } else if (turn === "playerTwo") {
-            document.getElementById("turn").innerHTML = "Two";
+            document.getElementById("turn").innerHTML = "Player One's turn.";
             el.innerHTML = "O";
         };
         el.dataset.clicked = "true";
@@ -43,4 +43,3 @@ function reset() {
 }
 
 startGame()
-
